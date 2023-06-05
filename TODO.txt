@@ -1,0 +1,4 @@
+1. Most models handle sequences of up to 512 or 1024 tokens, and will crash when asked to process longer sequences. Need to either:
+	- Use a model with a longer supported sequence length.
+	- Truncate your sequences.
+2. This will take 5+ mins just to run one example. It will take way to long to fine tune. Exploring axolotl
